@@ -105,10 +105,7 @@ tabs[nextIndex].click();
 }
 });
 });
-/* ==========================================================
-CONFIGURACIÓN N8N
-========================================================== */
-const N8N_WEBHOOK_URL = "https://milavadero-co.app.n8n.cloud/webhook-test/mi-lavadero-registro";
+
 /* ==========================================================
 FORMULARIO Y MODAL
 ========================================================== */
@@ -142,7 +139,7 @@ const datosRegistro = {
 };
 try {
 /* Envía los datos mediante POST al Webhook de n8n. */
-const response = await fetch(N8N_WEBHOOK_URL, {
+const response = await fetch("/api/registro", {
 method: "POST",
 headers: {
 "Content-Type": "application/json"
