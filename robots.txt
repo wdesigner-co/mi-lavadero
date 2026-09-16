@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mi-lavadero.vercel.app/sitemap.xml

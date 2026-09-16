@@ -1,0 +1,29 @@
+# Mi Lavadero - Autolavado en San Juan del Cesar
+
+Información comercial y operativa de la Landing Page oficial: https://mi-lavadero.vercel.app/
+
+## Promoción Especial
+* **Gancho:** Lava tu vehículo 4 veces dentro de un periodo de 30 días y recibe la 5ª lavada completamente GRATIS.
+* **Vigencia:** Válido hasta el 30 de Septiembre de 2026.
+* **Instrucciones:** 
+  1. Registrarse con nombre, teléfono y placa del vehículo.
+  2. Apartar cupo seleccionando fecha, hora y tipo de servicio.
+  3. Completar 4 lavadas acumuladas automáticamente.
+  4. Obtener el beneficio de la lavada gratuita.
+
+## Información de Contacto y Ubicación
+* **Dirección:** Carrera 10 con Calle 3, Lavadero Las Delicias, Sector Las Delicias, San Juan del Cesar, La Guajira - Colombia.
+* **Horario de atención:** Lunes a Domingo de 8:00 am a 4:00 pm.
+* **Canales de atención:** Formulario de reserva web, canal de Telegram y contacto directo vía WhatsApp.
+
+## Portafolio de Servicios y Tarifas (en pesos COP)
+
+### Vehículos Pequeños
+* **Latazo:** Lavado exterior rápido y efectivo para el polvo diario. — $8.000 COP
+* **Enjuague básico:** Limpieza exterior profunda, lavado, aspirado y secado. — $12.000 COP
+* **Enjuague general:** Limpieza completa interior, exterior y lavado por debajo (no incluye motor). Aspirado incluido. — $17.000 COP
+
+### Camionetas / SUV
+* **Latazo:** Lavado exterior rápido para camionetas. — $10.000 COP
+* **Enjuague básico:** Limpieza exterior profunda y aspirado, ideal para vehículos de trocha. — $15.000 COP
+* **Enjuague general:** Limpieza completa interior, exterior, aspirado y lavado por debajo (no incluye motor). — $20.000 COP

@@ -418,7 +418,9 @@ p:last-child {
   display: block;
   margin-top: 0.75rem;
   color: rgb(255 255 255 / 0.92);
-  font-size: clamp(1.875rem, 7vw, 3rem);
+  font-size: clamp(2.5rem, 10vw, 4rem);
+  font-weight: 800;
+  line-height: 0.98;
   letter-spacing: -0.03em;
 }
 .hero__description {

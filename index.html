@@ -3,23 +3,78 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Promoción Especial | Mi Lavadero</title>
+    <title>Promoción Especial en San Juan del Cesar | Mi Lavadero</title>
     <!-- Metadata para SEO -->
-    <meta name="description" content="Aprovecha nuestra promoción especial de autolavado en San Juan del Cesar. Lava tu vehículo 4 veces y la 5ª es completamente GRATIS. ¡Regístrate hoy!">
+    <meta name="description" content="Promoción especial de autolavado en San Juan del Cesar. Lava 4 veces y la 5ª es completamente GRATIS. ¡Regístrate hoy!">
+    <!-- Etiqueta Canónica Oficial -->
+    <link rel="canonical" href="https://mi-lavadero.vercel.app/" />
+
+
     <meta name="keywords" content="autolavado, San Juan del Cesar, lavar carro, promoción lavado, lavado gratis, Mi Lavadero">
     <meta name="author" content="Alejandro Villanueva | Wdesigner.co">
     <meta name="robots" content="index, follow">
+    <link rel="alternate" hreflang="es-co" href="https://mi-lavadero.vercel.app/" />
+
+
+    <!-- Favicon tradicional para computadoras de escritorio -->
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <!-- Vinculación del manifiesto para celulares Android y Chrome móvil -->
+    <link rel="manifest" href="/manifest.json">
+    <!-- Opcional: Icono para dispositivos Apple (iPhones y iPads) -->
+    <link rel="apple-touch-icon" href="img/miLavadero-192.png">
+
     <!-- Open Graph -->
     <meta property="og:title" content="¡Lava 4 veces y la 5ta. es GRATIS!">
     <meta property="og:description" content="Promoción exclusiva en San Juan del Cesar. Acumula 4 lavadas en 30 días y te regalamos la quinta. ¡Separa tu cupo!">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="es_CO">
+    <meta name="theme-color" content="#0f172a">
     <!-- Fuentes y estilos -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
+
+    <!-- Datos Estructurados de Schema.org para Mi Lavadero -->
+     <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "AutoWash",
+        "name": "Mi Lavadero",
+        "image": "https://mi-lavadero.vercel.app/img/Logo_Horizontal.png",
+        "@id": "https://mi-lavadero.vercel.app/",
+        "url": "https://mi-lavadero.vercel.app/",
+        "priceRange": "COP 8000 - 20000",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Carrera 10 con Calle 3, Lavadero Las Delicias, Sector Las Delicias",
+          "addressLocality": "San Juan del Cesar",
+          "addressRegion": "La Guajira",
+          "addressCountry": "CO"
+        },
+        "geo": {
+          "@type": "GeoCoordinates", 
+          "latitude": 10.771522,
+          "longitude": -73.001577
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+          ],
+          "opens": "08:00",
+          "closes": "16:00"
+        }
+      }
+    </script>
+
   </head>
   <body>
     <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
@@ -64,9 +119,9 @@
             <span class="hero__location">San Juan del Cesar</span>
             <h1 id="hero-title" class="hero__title">
               PROMOCIÓN
-              <span class="hero__title-accent">ESPECIAL</span>
-              <span class="hero__title-subtitle">Lava 4 veces. La 5ª es GRATIS.</span>
-            </h1>
+              <span class="hero__title-accent">ESPECIAL</span></h1>
+            <p>  <span class="hero__title-subtitle">Lava 4 veces. La 5ª es GRATIS.</span>
+            </p>
             <p class="hero__description">
               Lava tu vehículo 4 veces dentro de 30 días y recibe una lavada completamente GRATIS.
               Regístrate, aparta tu cupo y empieza a acumular tus lavadas hoy mismo.
@@ -391,7 +446,8 @@
           <strong id="registration-modal-title">¡Registro exitoso!</strong>
           <span>Tus datos han sido guardados. Ahora puedes apartar tu servicio directamente en el lavadero.</span>
         </div>
-        <a class="button button--reserve" href="https://w.app/milavaderoco" target="_blank" rel="noopener noreferrer">
+        <!-- https://w.app/milavaderoco-->
+        <a class="button button--reserve" href="#precios" target="_blank" rel="noopener noreferrer">
           Reservar cupo
         </a>
       </div>
