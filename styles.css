@@ -1521,3 +1521,37 @@ p:last-child {
     min-height: 18rem;
   }
 }
+
+/* ==========================================================
+   ESTADO DE PROCESAMIENTO DEL BOTÓN DE REGISTRO
+   ========================================================== */
+
+.button--submit.button--loading {
+  cursor: wait;
+  pointer-events: none;
+  opacity: 1;
+}
+
+.button--loading .button__spinner {
+  width: 1.15rem;
+  height: 1.15rem;
+  flex: 0 0 1.15rem;
+  border: 2px solid currentColor;
+  border-top-color: transparent;
+  border-radius: 50%;
+  animation: registration-spinner 0.75s linear infinite;
+}
+
+.button--loading {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.65rem;
+  text-align: center;
+}
+
+@keyframes registration-spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}
